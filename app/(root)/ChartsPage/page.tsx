@@ -250,14 +250,14 @@ const FinancialChartsPage: React.FC = () => {
 
       
       <div className="bg-white p-4 rounded-lg shadow-md w-full space-y-3">
-        <h2 className="text-lg font-semibold mb-2">Objectifs d'Épargne</h2>
+        <h2 className="text-lg font-semibold mb-2">Objectifs depargne</h2>
         {goals.length === 0 ? (
           <p>Aucun objectif défini pour le moment.</p>
         ) : (
           <table className="min-w-full border border-gray-200">
             <thead>
               <tr className="bg-gray-100 text-left">
-                <th className="px-4 py-2 border-b">Nom de l'objectif</th>
+                <th className="px-4 py-2 border-b">Nom de l objectif</th>
                 <th className="px-4 py-2 border-b">Montant</th>
                 <th className="px-4 py-2 border-b">Progression</th>
                 <th className="px-4 py-2 border-b">Statut</th>
