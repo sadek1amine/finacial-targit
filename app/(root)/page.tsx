@@ -22,10 +22,6 @@ const Home = async ({ searchParams: { id, page } }: SearchParamProps) => {
 
 
   
-  
-
-
-  
 
   return (
     <section className="home grid grid-cols-1 lg:grid-cols-[1fr_350px] gap-8 p-6 bg-gray-50 min-h-screen">
