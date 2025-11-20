@@ -1,3 +1,3 @@
-/icons/*    /icons/:splat   200
-/assets/*   /assets/:splat  200   CSS/JS
-/*         /index.html      200
+/icons/*   /icons/:splat  200
+/assets/*  /assets/:splat  200  
+/*         /.netlify/functions/next  200
