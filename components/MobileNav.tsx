@@ -37,7 +37,7 @@ export const MobileNav = ({ user }: MobileNavProps) => {
       <nav className="flex flex-col gap-4">
         <Link href="/" className="mb-12 flex items-center w-full">
           <Image
-            src="/icons/logo2DB"
+            src="/icons/logo2DB.png"
             width={180}
             height={74}
             alt="FrostBudget"
