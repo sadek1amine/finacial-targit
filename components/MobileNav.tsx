@@ -37,10 +37,10 @@ export const MobileNav = ({ user }: MobileNavProps) => {
       <nav className="flex flex-col gap-4">
         <Link href="/" className="mb-12 flex items-center w-full">
           <Image
-            src="/icons/UniPay-Logo_Black.png"
+            src="/icons/logo2DB"
             width={180}
             height={74}
-            alt="UniPay Logo"
+            alt="FrostBudget"
           />
         </Link>
 
