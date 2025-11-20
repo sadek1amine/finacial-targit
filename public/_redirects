@@ -1,3 +1,6 @@
+# توجيه الصور والملفات الثابتة
 /icons/*   /icons/:splat  200
-/assets/*  /assets/:splat  200  
+/assets/*  /assets/:splat  200
+
+# توجيه كل باقي الصفحات إلى Netlify Function الخاصة بـ Next.js
 /*         /.netlify/functions/next  200
