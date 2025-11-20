@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,          // إذا كنت تستخدم app directory
-  },
   images: {
-    unoptimized: true,     // لتجنب مشاكل الصور على Netlify
+    unoptimized: true, // لتجنب مشاكل الصور على Netlify
   },
-}
+  output: "standalone", // مهم إذا تريد تشغيله على Netlify Functions
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
