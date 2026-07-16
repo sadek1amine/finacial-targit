@@ -1,4 +1,5 @@
 # ❄️ Financial Target
+# ❄️ FrostBudget
 
 > A modern personal finance tracker built with **React** and **TypeScript**, inspired by the calm atmosphere of winter and the strength of a polar bear.
 
