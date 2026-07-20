@@ -1,11 +1,15 @@
 export const sidebarLinks = [
-  
   {
     imgURL: "/icons/home.svg",
     route: "/",
     label: "Home",
   },
- 
+     {
+    imgURL: "/icons/transaction.svg",
+    route: "/budget",
+    label: "Budget",
+  },
+
   {
     imgURL: "/icons/transaction.svg",
     route: "/income",
@@ -127,3 +131,4 @@ export const transactionCategoryStyles = {
     chipBackgroundColor: "bg-inherit",
   },
 };
+
